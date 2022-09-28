@@ -18,7 +18,7 @@ echo "The value of location variable is" $location	# Display value of location v
 # E)
 items=$(ls . | wc -l)
 echo "The number of items in current working directory is" $items
-PATH=$PATH:$HOME/cpe433
+PATH=$PATH:$HOME/tranhw4
 export PATH
 
 # F)
