@@ -17,7 +17,7 @@ mkdir ./$1/$2
 echo "Creating a directory named " $2 " under dir 1 ...... done!"
 
 # Part 3
-echo "Hello World!" > $3
+echo "Hello World!" > $1/$2/$3
 echo "Creating a text file named " $3 "...... done!"
 echo "Moving " $1 " to dir1/dir2 ...... done!"
 
